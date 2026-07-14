@@ -1,39 +1,36 @@
-# CSS Session 2 — Building the Navbar & Hero 🚀
+# CSS Session 3 — Building Feature Cards ✨
 
-In this session, we built the Navbar and Hero section using Flexbox and spacing.
+In this session, we built the Features section and added interactive hover effects.
 
 ## What We Learned
 
-- Box Model
-- Flexbox
-- Main Axis & Cross Axis
-- Width & Max Width
-- Box Sizing
+- Reusable CSS Classes
+- Card Styling
+- Pseudo Classes
+- CSS Transform
+- CSS Transition
 
 ## CSS Properties
 
 ```css
-display
-gap
-justify-content
-align-items
-padding
-margin
-width
-max-width
-box-sizing
+border
+box-shadow
+flex
+transform
+transition
 ```
 
 ## What We Built
 
-- Navbar layout
-- Navigation layout
-- Hero section
+- Trusted Brands section
+- Features layout
+- Feature cards
+- Interactive hover effects
 
 ## Challenge 🚀
 
-Build the Stats section using Flexbox.
+Create a card that moves up when you hover over it and add a smooth transition.
 
 ## Next Session
 
-Feature Cards, Hover Effects and Transitions.
+Learning Path and CSS Grid.
