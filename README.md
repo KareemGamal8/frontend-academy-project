@@ -1,36 +1,42 @@
-# CSS Session 6 — Testimonials & Pricing 💬
+# CSS Session 7 — Styling Forms 📝
 
-In this session, we built the Testimonials and Pricing sections and learned CSS positioning.
+In this session, we built and styled the Contact Form.
 
 ## What We Learned
 
-- Normal Flow
-- CSS Positioning
-- Relative Positioning
-- Absolute Positioning
-- CSS Scale
+- Flex Direction
+- Form Styling
+- Focus States
+- Pseudo Elements
 
 ## CSS Properties
 
 ```css
-position
-top
-left
-right
-transform
+flex-direction
+min-height
+resize
+outline
+```
+
+## CSS Selectors
+
+```css
+:focus
+::before
+::after
 ```
 
 ## What We Built
 
-- Testimonials section
-- Student cards
-- Pricing cards
-- Popular plan badge
+- Contact section
+- Styled form inputs
+- Interactive focus states
+- Decorative heading line
 
 ## Challenge 🚀
 
-Add a `New` badge to a course card using CSS positioning.
+Style a newsletter input and add a focus effect and decorative heading line.
 
 ## Next Session
 
-Forms, Focus States and Pseudo Elements.
+Responsive Design and Media Queries.
