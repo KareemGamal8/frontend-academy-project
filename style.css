@@ -82,6 +82,10 @@ nav {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .features {
@@ -259,9 +263,9 @@ nav {
 }
 
 .contact-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .form-group {
@@ -294,9 +298,8 @@ nav {
 .form-group textarea:focus {
   outline: none;
   border-color: #7c3aed;
-}ئ
-
-.contact-content h2::after {
+}
+ئ .contact-content h2::after {
   content: "";
   display: block;
   width: 60px;
@@ -500,5 +503,3 @@ button {
     justify-content: center;
   }
 }
-
-
