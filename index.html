@@ -8,17 +8,13 @@
 
     <style>
       h1 {
-        color: purple;
+        color: #111827;
         font-size: 48px;
       }
 
       p {
         color: #64748b;
         font-size: 18px;
-      }
-
-      a {
-        color: #7c3aed;
       }
 
       .logo {
@@ -42,12 +38,42 @@
         border-radius: 8px;
         text-decoration: none;
       }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+        padding: 20px 80px;
+      }
+
+      nav {
+        display: flex;
+        gap: 24px;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        margin-top: 50px;
+        padding: 40px 80px;
+      }
+
+      .hero-content {
+        max-width: 550px;
+      }
+
+      .hero img {
+        width: 500px;
+      }
     </style>
   </head>
 
   <body>
     <header>
-      <a href="#" class="logo">Frontend Academy</a>
+      <a class="logo" href="#">Frontend Academy</a>
 
       <nav>
         <a href="#">Home</a>
@@ -56,16 +82,23 @@
         <a href="#">Pricing</a>
       </nav>
 
-      <a href="#" class="btn">Enroll Now</a>
+      <a class="btn" href="#">Enroll Now</a>
     </header>
 
     <main>
-      <section>
-        <h1>Learn Frontend Development</h1>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Master Frontend Development</h1>
 
-        <p>Build real projects and learn HTML, CSS, JavaScript and React.</p>
+          <p>
+            Learn HTML, CSS, JavaScript and React by building real-world
+            projects.
+          </p>
 
-        <a href="#" class="btn">Start Learning</a>
+          <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <img src="./assets/hero_developer.png" alt="Frontend Development" />
       </section>
     </main>
   </body>
