@@ -3,139 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Frontend Academy</title>
-
-    <style>
-      h1 {
-        color: #111827;
-        font-size: 48px;
-      }
-
-      p {
-        color: #64748b;
-        font-size: 18px;
-      }
-
-      .logo {
-        color: #7c3aed;
-        font-size: 24px;
-        font-weight: 700;
-        text-decoration: none;
-      }
-
-      nav a {
-        color: #64748b;
-        font-size: 16px;
-        font-weight: 500;
-        text-decoration: none;
-      }
-
-      .btn {
-        color: white;
-        background-color: #7c3aed;
-        padding: 12px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-      }
-
-      header {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        align-items: center;
-        padding: 20px 80px;
-      }
-
-      nav {
-        display: flex;
-        gap: 24px;
-      }
-
-      .hero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-        margin-top: 50px;
-        padding: 40px 80px;
-      }
-
-      .hero-content {
-        max-width: 550px;
-      }
-
-      .hero img {
-        width: 500px;
-      }
-
-      .brands {
-        text-align: center;
-        padding: 40px 80px;
-      }
-
-      .brands-list {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-      }
-
-      .features {
-        padding: 80px;
-      }
-
-      .section-heading {
-        text-align: center;
-      }
-
-      .features-list {
-        display: flex;
-        gap: 24px;
-        margin-top: 40px;
-      }
-
-      .feature-card {
-        padding: 24px;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        flex: 1;
-        box-shadow: 0 4px 20px #00000010;
-        transition: 0.3s;
-      }
-
-      .feature-card:hover {
-        border-color: #7c3aed;
-        transform: translateY(-5px);
-      }
-
-      .learning-path {
-        padding: 80px;
-        margin-top: 40px;
-      }
-
-      .path-list {
-        display: grid;
-        gap: 24px;
-        margin-top: 40px;
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .path-card {
-        padding: 32px;
-        border: 1px solid #e2e8f0;
-        border-radius: 16px;
-      }
-
-      .path-card span {
-        color: #7c3aed;
-        font-size: 18px;
-        font-weight: 600;
-      }
-
-      .path-card:first-child {
-        grid-column: span 3;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -238,6 +107,54 @@
             <p>Build modern frontend applications.</p>
           </div>
         </div>
+      </section>
+      <section class="tracks">
+        <div class="section-heading">
+          <h2>Compare Learning Tracks</h2>
+
+          <p>Choose the right learning path for your journey.</p>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Track</th>
+              <th>Duration</th>
+              <th>Projects</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>HTML & CSS</td>
+              <td>4 Weeks</td>
+              <td>3 Projects</td>
+              <td>Beginner</td>
+            </tr>
+
+            <tr>
+              <td>JavaScript</td>
+              <td>4 Weeks</td>
+              <td>4 Projects</td>
+              <td>Intermediate</td>
+            </tr>
+
+            <tr>
+              <td>React JS</td>
+              <td>3 Weeks</td>
+              <td>2 Projects</td>
+              <td>Advanced</td>
+            </tr>
+
+            <tr>
+              <td>Tailwind CSS</td>
+              <td>1 Week</td>
+              <td>1 Project</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
   </body>

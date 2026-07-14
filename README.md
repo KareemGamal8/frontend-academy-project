@@ -1,35 +1,43 @@
-# CSS Session 4 — Building the Learning Path 🧩
+# CSS Session 5 — Styling Tables 📊
 
-In this session, we built the Learning Path section using CSS Grid.
+In this session, we transformed a basic HTML table into a modern learning tracks table.
 
 ## What We Learned
 
-- CSS Grid
-- Grid Columns
-- Fraction Unit (`fr`)
-- `repeat()`
-- Grid Placement
-- Flexbox vs Grid
+- Table Styling
+- Grouping Selectors
+- Pseudo Classes
+- Selecting Elements by Order
 
 ## CSS Properties
 
 ```css
-display
-grid-template-columns
-gap
-grid-column
+width
+border-collapse
+padding
+border-bottom
+text-align
+```
+
+## Pseudo Classes
+
+```css
+:hover
+:nth-child()
+:first-child
+:last-child
 ```
 
 ## What We Built
 
-- Learning Path section
-- Two-column Grid layout
-- Custom Grid card placement
+- Learning Tracks Table
+- Alternating Row Colors
+- Interactive Table Rows
 
 ## Challenge 🚀
 
-Create a 3-column Technologies Grid and make the first item span two columns.
+Style a students table and add alternating row colors and a hover effect.
 
 ## Next Session
 
-Learning Tracks Table, Pseudo Classes and Pricing.
+Testimonials, Pricing and CSS Positioning.
