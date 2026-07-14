@@ -1,43 +1,36 @@
-# CSS Session 5 — Styling Tables 📊
+# CSS Session 6 — Testimonials & Pricing 💬
 
-In this session, we transformed a basic HTML table into a modern learning tracks table.
+In this session, we built the Testimonials and Pricing sections and learned CSS positioning.
 
 ## What We Learned
 
-- Table Styling
-- Grouping Selectors
-- Pseudo Classes
-- Selecting Elements by Order
+- Normal Flow
+- CSS Positioning
+- Relative Positioning
+- Absolute Positioning
+- CSS Scale
 
 ## CSS Properties
 
 ```css
-width
-border-collapse
-padding
-border-bottom
-text-align
-```
-
-## Pseudo Classes
-
-```css
-:hover
-:nth-child()
-:first-child
-:last-child
+position
+top
+left
+right
+transform
 ```
 
 ## What We Built
 
-- Learning Tracks Table
-- Alternating Row Colors
-- Interactive Table Rows
+- Testimonials section
+- Student cards
+- Pricing cards
+- Popular plan badge
 
 ## Challenge 🚀
 
-Style a students table and add alternating row colors and a hover effect.
+Add a `New` badge to a course card using CSS positioning.
 
 ## Next Session
 
-Testimonials, Pricing and CSS Positioning.
+Forms, Focus States and Pseudo Elements.

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color: #111827;
   font-size: 48px;
@@ -163,4 +167,68 @@ nav {
 
 .tracks tbody tr:last-child td {
   border-bottom: none;
+}
+
+.testimonials {
+  padding: 80px;
+}
+
+.testimonials-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  flex: 1;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.student img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.pricing {
+  padding: 80px;
+}
+
+.pricing-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.pricing-card {
+  flex: 1;
+  padding: 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  position: relative;
+}
+
+.popular {
+  transform: scale(1.05);
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #7c3aed;
+  padding: 8px 16px;
+  border-radius: 20px;
 }
