@@ -65,7 +65,8 @@ nav {
 }
 
 .hero-content a {
-  margin-top: 20px !important;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .hero img {
@@ -226,6 +227,11 @@ nav {
   position: relative;
 }
 
+.pricing-card a {
+  margin-top: 20px;
+  display: inline-block;
+}
+
 .popular {
   transform: scale(1.05);
 }
@@ -357,13 +363,10 @@ nav {
 
   color: #7c3aed;
   background-color: #f5f3ff;
-
   border: 1px solid #ddd6fe;
   border-radius: 10px;
-
   font-size: 24px;
   cursor: pointer;
-
   transition: 0.3s;
 }
 
@@ -378,24 +381,19 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-
   width: 220px;
   padding: 8px;
-
   background-color: white;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .mobile-links a {
   display: block;
   padding: 12px 16px;
-
   color: #334155;
   text-decoration: none;
-
   border-radius: 8px;
 }
 
@@ -406,6 +404,11 @@ nav {
 
 .mobile-menu:hover .mobile-links {
   display: block;
+}
+
+a,
+button {
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -443,6 +446,10 @@ nav {
   .pricing,
   .contact {
     padding: 40px 20px;
+  }
+
+  .tracks table {
+    font-size: 12px;
   }
 
   .features-list,
@@ -488,6 +495,4 @@ nav {
   }
 }
 
-.table-container {
-  overflow-x: auto;
-}
+
