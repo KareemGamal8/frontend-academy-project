@@ -1,6 +1,6 @@
-# CSS Session 7 — Styling Forms 📝
+# CSS Session 7 — Forms & Footer 📝
 
-In this session, we built and styled the Contact Form.
+In this session, we built the Contact Form and completed the desktop website with the Footer.
 
 ## What We Learned
 
@@ -8,6 +8,7 @@ In this session, we built and styled the Contact Form.
 - Form Styling
 - Focus States
 - Pseudo Elements
+- Block Display
 
 ## CSS Properties
 
@@ -16,12 +17,14 @@ flex-direction
 min-height
 resize
 outline
+display
 ```
 
 ## CSS Selectors
 
 ```css
 :focus
+:hover
 ::before
 ::after
 ```
@@ -32,10 +35,11 @@ outline
 - Styled form inputs
 - Interactive focus states
 - Decorative heading line
+- Website footer
 
 ## Challenge 🚀
 
-Style a newsletter input and add a focus effect and decorative heading line.
+Style a newsletter input with a focus effect and create a simple footer using Flexbox.
 
 ## Next Session
 
