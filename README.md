@@ -1,36 +1,35 @@
-# CSS Session 3 — Building Feature Cards ✨
+# CSS Session 4 — Building the Learning Path 🧩
 
-In this session, we built the Features section and added interactive hover effects.
+In this session, we built the Learning Path section using CSS Grid.
 
 ## What We Learned
 
-- Reusable CSS Classes
-- Card Styling
-- Pseudo Classes
-- CSS Transform
-- CSS Transition
+- CSS Grid
+- Grid Columns
+- Fraction Unit (`fr`)
+- `repeat()`
+- Grid Placement
+- Flexbox vs Grid
 
 ## CSS Properties
 
 ```css
-border
-box-shadow
-flex
-transform
-transition
+display
+grid-template-columns
+gap
+grid-column
 ```
 
 ## What We Built
 
-- Trusted Brands section
-- Features layout
-- Feature cards
-- Interactive hover effects
+- Learning Path section
+- Two-column Grid layout
+- Custom Grid card placement
 
 ## Challenge 🚀
 
-Create a card that moves up when you hover over it and add a smooth transition.
+Create a 3-column Technologies Grid and make the first item span two columns.
 
 ## Next Session
 
-Learning Path and CSS Grid.
+Learning Tracks Table, Pseudo Classes and Pricing.
