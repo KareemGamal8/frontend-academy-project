@@ -1,237 +1,98 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Frontend Academy</title>
-
-    <style>
-      h1 {
-        color: #111827;
-        font-size: 48px;
-      }
-
-      p {
-        color: #64748b;
-        font-size: 18px;
-      }
-
-      .logo {
-        color: #7c3aed;
-        font-size: 24px;
-        font-weight: 700;
-        text-decoration: none;
-      }
-
-      nav a {
-        color: #64748b;
-        font-size: 16px;
-        font-weight: 500;
-        text-decoration: none;
-      }
-
-      .btn {
-        color: white;
-        background-color: #7c3aed;
-        padding: 12px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-      }
-
-      header {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        align-items: center;
-        padding: 20px 80px;
-      }
-
-      nav {
-        display: flex;
-        gap: 24px;
-      }
-
-      .hero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-        margin-top: 50px;
-        padding: 40px 80px;
-      }
-
-      .hero-content {
-        max-width: 550px;
-      }
-
-      .hero img {
-        width: 500px;
-      }
-
-      .brands {
-        text-align: center;
-        padding: 40px 80px;
-      }
-
-      .brands-list {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-      }
-
-      .features {
-        padding: 80px;
-      }
-
-      .section-heading {
-        text-align: center;
-      }
-
-      .features-list {
-        display: flex;
-        gap: 24px;
-        margin-top: 40px;
-      }
-
-      .feature-card {
-        padding: 24px;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        flex: 1;
-        box-shadow: 0 4px 20px #00000010;
-        transition: 0.3s;
-      }
-
-      .feature-card:hover {
-        border-color: #7c3aed;
-        transform: translateY(-5px);
-      }
-
-      .learning-path {
-        padding: 80px;
-        margin-top: 40px;
-      }
-
-      .path-list {
-        display: grid;
-        gap: 24px;
-        margin-top: 40px;
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .path-card {
-        padding: 32px;
-        border: 1px solid #e2e8f0;
-        border-radius: 16px;
-      }
-
-      .path-card span {
-        color: #7c3aed;
-        font-size: 18px;
-        font-weight: 600;
-      }
-
-      .path-card:first-child {
-        grid-column: span 3;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
-    <header>
-      <a class="logo" href="#">Frontend Academy</a>
-
+    <header class="container">
+      <a href="" class="logo">Frontend Academy</a>
+      <!-- Home Brands Features Tracks -->
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Learning Path</a>
-        <a href="#">Pricing</a>
+        <a href="">Home</a>
+        <a href="">Brands</a>
+        <a href="">Features</a>
+        <a href="">Learning Path</a>
+        <a href="">Tracks</a>
+        <a href="">Testimonials</a>
+        <a href="">Pricing</a>
+        <a href="">Contact</a>
       </nav>
-
-      <a class="btn" href="#">Enroll Now</a>
+      <a href="" class="btn">Enroll Now</a>
     </header>
-
     <main>
-      <section class="hero">
+      <!-- Hero Section -->
+      <section class="hero container">
         <div class="hero-content">
           <h1>Master Frontend Development</h1>
-
           <p>
             Learn HTML, CSS, JavaScript and React by building real-world
             projects.
           </p>
-
-          <a class="btn" href="#">Start Learning</a>
+          <a href="" class="btn">Start Learning</a>
         </div>
-
-        <img src="./assets/hero_developer.png" alt="Frontend Development" />
+        <img src="./assets/hero_developer.png" alt="hero" />
       </section>
-      <section class="brands">
-        <p>Trusted by students learning with</p>
 
-        <div class="brands-list">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React</span>
+      <!-- Languages Section -->
+      <section class="languages container">
+        <p class="second-title">Trusted by students learning with</p>
+        <div class="languages-list">
+          <span>html</span>
+          <span>css</span>
+          <span>javascript</span>
+          <span>react js</span>
         </div>
       </section>
-      <section class="features">
+
+      <!-- Features Section -->
+      <section class="features container">
         <div class="section-heading">
-          <h2>Why Learn With Us?</h2>
-
-          <p>Everything you need to become a frontend developer.</p>
+          <h4 class="first-title">Why Learn With Us?</h4>
+          <p class="second-title">
+            Everything you need to become a frontend developer.
+          </p>
         </div>
-
         <div class="features-list">
           <div class="feature-card">
-            <h3>Project Based</h3>
-
+            <h5>Project Based</h5>
             <p>Learn by building real-world projects.</p>
           </div>
-
           <div class="feature-card">
-            <h3>Step by Step</h3>
-
+            <h5>Step by Step</h5>
             <p>Learn frontend development from the basics.</p>
           </div>
-
           <div class="feature-card">
-            <h3>Practical Learning</h3>
-
+            <h5>Practical Learning</h5>
             <p>Focus on the skills you actually need.</p>
           </div>
         </div>
       </section>
-      <section class="learning-path">
-        <div class="section-heading">
-          <h2>Your Learning Path</h2>
 
-          <p>
+      <!-- Learning Path Section -->
+      <section class="learning-path container">
+        <div class="section-heading">
+          <h4 class="first-title">Your Learning Path</h4>
+          <p class="second-title">
             Follow a simple step-by-step roadmap to become a frontend developer.
           </p>
         </div>
-
         <div class="path-list">
           <div class="path-card">
             <span>01</span>
             <h3>HTML</h3>
             <p>Learn how to build the structure of web pages.</p>
           </div>
-
           <div class="path-card">
             <span>02</span>
             <h3>CSS</h3>
             <p>Style modern and beautiful websites.</p>
           </div>
-
           <div class="path-card">
             <span>03</span>
             <h3>JavaScript</h3>
             <p>Add logic and interactivity to websites.</p>
           </div>
-
           <div class="path-card">
             <span>04</span>
             <h3>React</h3>
