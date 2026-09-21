@@ -2,14 +2,20 @@
   margin: 0;
 }
 
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 h1 {
   font-size: 48px;
 }
 
 p {
   color: #64748b;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 button {
@@ -39,11 +45,14 @@ a {
 }
 
 .header {
-  padding: 15px 0;
+  padding: 24px 0;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #e2e8f0;
 }
 
 .logo {
@@ -97,6 +106,7 @@ a {
   font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .features {
@@ -142,6 +152,38 @@ a {
 
 .feature-card p {
   font-size: 18px;
+}
+
+.learning-path {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paths-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.path-card {
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.path-card:first-child {
+  grid-column: span 3;
+}
+
+.path-card span {
+  color: #6d28d9;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.path-card h4 {
+  font-size: 24px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 /* top => فوق */
